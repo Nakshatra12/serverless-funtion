@@ -1,2 +1,0 @@
-# serverless-funtion
-Task 4: Deploy a Serverless Function to the Cloud
