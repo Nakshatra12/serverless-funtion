@@ -5,12 +5,12 @@ The function runs in a serverless environment, meaning no manual setup or mainte
 This approach provides scalability, cost efficiency, and automatic resource management.
 
 
-Task 4: Deploy a Serverless Function to Google Cloud
-🎯 Objective
+## Task 4: Deploy a Serverless Function to Google Cloud
+### 🎯 Objective
 
 Learn serverless computing by creating and deploying a cloud function (FaaS) that runs automatically in response to an HTTP trigger — without managing servers.
 
-🛠 Tools
+### 🛠 Tools
 
 Google Cloud Platform (Free Tier)
 
@@ -18,19 +18,19 @@ Python 3.10 runtime
 
 Browser (for testing)
 
-📦 Function Details
+### 📦 Function Details
 
 Function Name	- helloWorld
 Runtime	- Python 3.10
 Trigger	- HTTP (Allow unauthenticated)
 Entry Point	- hello_world
 
-Source code
+## Source code
 def hello_world(request):
     name = request.args.get('name', 'Guest')
     return f"Hello, {name}! Welcome to Cloud Functions!"
 
-🚀 Deployment Steps
+## 🚀 Deployment Steps
 
 1.Go to Google Cloud Console → Cloud Functions
 2.Click + Create Function
@@ -44,26 +44,26 @@ def hello_world(request):
 6.Paste the code in inline editor
 7.Click Deploy and wait until status shows Active
 
-🧪 Testing the Function
+## 🧪 Testing the Function
 
-1️⃣ Test in Browser
+### 1️⃣ Test in Browser
 Open the Trigger URL
 Output:
 Hello, Guest! Welcome to Cloud Functions!
 
-🧹 Cleanup
+### 🧹 Cleanup
 
 To avoid using free-tier resources:
 Go to Cloud Functions → Select function → Delete
 
-📌 Outcome
+## 📌 Outcome
 
 Learned serverless architecture and Function-as-a-Service (FaaS)
 Deployed a function that executes on HTTP trigger
 Tested functions in browser and Postman
 Learned to handle query parameters
 
-💬 Interview Questions
+## 💬 Interview Questions
 
 1.What is serverless computing and how is it different from traditional hosting?
 2.What are triggers in serverless functions?
