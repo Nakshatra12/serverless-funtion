@@ -48,6 +48,7 @@ def hello_world(request):
 
 ### 1️⃣ Test in Browser
 Open the Trigger URL
+
 Output:
 Hello, Guest! Welcome to Cloud Functions!
 
@@ -59,17 +60,27 @@ Go to Cloud Functions → Select function → Delete
 ## 📌 Outcome
 
 Learned serverless architecture and Function-as-a-Service (FaaS)
+
 Deployed a function that executes on HTTP trigger
-Tested functions in browser and Postman
+
+Tested functions in browser
+
 Learned to handle query parameters
 
 ## 💬 Interview Questions
 
 1.What is serverless computing and how is it different from traditional hosting?
+
 2.What are triggers in serverless functions?
+
 3.What happens behind the scenes when you deploy a cloud function?
+
 4.Advantages of serverless architecture?
+
 5.How does FaaS reduce operational overhead?
+
 6.What are cold starts in serverless computing?
+
 7.How can you secure an HTTP endpoint?
+
 8.Give a real-world use case of serverless computing.
